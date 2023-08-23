@@ -38,6 +38,7 @@ In this scenario, our team has built an ETL Pipeline. Python, Pandas and Python 
 
 ## About
 **Part 1: Create DataFrames for Category, Subcategory, Campaign, and Contacts**
+
 At the beginning, we used Jupyter Notebook to import two excel files, that were transformed and manipulated to create four dataframes. These dataframes were then exported into csv files. MORE DETAIL HERE....... 
 
 Resource Files We Used:
@@ -61,6 +62,7 @@ Tools/Libraries We Imported:
    - re library: used for regular expressions to search and manipulate strings in python
 
 **Part 2: Create the Crowdfunding Database**
+
 In this section, using QuickDBD, we sketched an ERD to form a table schema of the four csv files we created in Part 2 above. We identified the dependencies between each table (primary and foreign keys) and the relevant datatypes for each column.
 
 Files We Created:
@@ -69,6 +71,7 @@ Files We Created:
  - SQL Code: Select_statements.sql
 
 **Part 3: Import Data into Crowdfunding Database**
+
 Lastly, we created a SQL database in Postgres. Data was imported using python code in Juypter Notebook. ADD MORE INFORMATION.....
 
 Resource Files We Used:
@@ -85,6 +88,7 @@ Tools/Libraries We Imported:
    - sqlalchemy library: provides the SQL toolkit and Object-Relational Mapper (ORM) functionality. The create_engine function is to create a database engine to connect with the database in order to interact with the database, and perform operations such as SQL queries
 
 ## Getting Started
+
 Programs/software we used:
  - Jupyter Notebook: used for python coding in sections.
  - Microsoft Excel: to view csv files. Should be available by default on all PCs.
@@ -101,6 +105,7 @@ To open the files .ipynb files in Juypter Notebook:
 - Open Jupyter Notebook, type 'Jupyter Notebook'
 
 ## Installing
+
 Installation PostgreSQL & pgAdmin:
  - In your browser, go to Download PostgreSQLLinks: https://www.enterprisedb.com/downloads/postgres-postgresql-downloads.
  - Select the download option for your operating system and the latest version 14.x of PostgreSQL.
