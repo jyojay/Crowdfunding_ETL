@@ -61,6 +61,7 @@ Tools/Libraries We Imported:
    - numpy library: used for numerical computations
    - re library: used for regular expressions to search and manipulate strings in python
 
+
 **Part 2: Create the Crowdfunding Database**
 
 In this section, using QuickDBD, we sketched an ERD to form a table schema of the four csv files we created in Part 2 above. We identified the dependencies between each table (primary and foreign keys) and the relevant datatypes for each column.
@@ -69,6 +70,7 @@ Files We Created:
  - Schema: crowdfunding_db_schema.sql
  - ERD Diagram: ERD_crowdfunding_db_schema.png
  - SQL Code: Select_statements.sql
+
 
 **Part 3: Import Data into Crowdfunding Database**
 
@@ -123,8 +125,10 @@ Installation PostgreSQL & pgAdmin:
 Installation psycopg2: after activating dev environment in Anaconda Prompt (see Getting Started above), type: "pip install psycopg2"
 
 ## Usage
+
 A step by step series of examples that tell you how to get a development env running.
 
 ## Contributing
-[Contributors names.](https://www.askpython.com/python-modules/pandas/pandas-to-sql)https://www.askpython.com/python-modules/pandas/pandas-to-sql
+
+How to import csv data to sql: https://www.askpython.com/python-modules/pandas/pandas-to-sql
 
