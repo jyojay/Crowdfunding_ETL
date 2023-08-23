@@ -1,5 +1,5 @@
 # Crowdfunding_ETL
-***Project Team 8: Jyotsna Jayaraman, Asha Kozak and Katharine Tamas***
+### Project Team 8: Jyotsna Jayaraman, Asha Kozak and Katharine Tamas
 
 In this scenario, our team has built an ETL Pipeline. Python, Pandas and Python dictionary methods (and regular expressions to show alternative method) were used to extract, transform and then create csv files. An Entity Relationship Diagram (ERD) and table schema were formed and then the data was uploaded into a Postgres database.
 
@@ -37,61 +37,61 @@ In this scenario, our team has built an ETL Pipeline. Python, Pandas and Python 
 - [Contributing](#contributing)
 
 ## About
-**Part 1: Create DataFrames for Category, Subcategory, Campaign, and Contacts**
+### Part 1: Create DataFrames for Category, Subcategory, Campaign, and Contacts
 
 At the beginning, we used Jupyter Notebook to import two excel files, that were transformed and manipulated to create four dataframes. These dataframes were then exported into csv files. MORE DETAIL HERE....... 
 
-Resource Files We Used:
+**Resource Files We Used:**
   - crowdfunding.xlsx
   - contacts.xlsx
 
-Our Jupyter Notebook Python Scripts:
+**Our Jupyter Notebook Python Scripts:**
   - ELT_Mini_Project_JKozak.ipnynb
   - ELT_Mini_Project_JTamas.ipnynb
   - ELT_Mini_Project_JJayaraman.ipnynb
 
-Files We Created:
+**Files We Created:**
   - campaign.csv
   - category.csv
   - contacts.csv
   - subcategory.csv
 
-Tools/Libraries We Imported:
+**Tools/Libraries We Imported:**
    - pandas library: for data manipulation and analysis
    - numpy library: used for numerical computations
    - re library: used for regular expressions to search and manipulate strings in python
 
 
-**Part 2: Create the Crowdfunding Database**
+### Part 2: Create the Crowdfunding Database
 
 In this section, using QuickDBD, we sketched an ERD to form a table schema of the four csv files we created in Part 2 above. We identified the dependencies between each table (primary and foreign keys) and the relevant datatypes for each column.
 
-Files We Created:
+**Files We Created:**
  - Schema: crowdfunding_db_schema.sql
  - ERD Diagram: ERD_crowdfunding_db_schema.png
  - SQL Code: Select_statements.sql
 
 
-**Part 3: Import Data into Crowdfunding Database**
+### Part 3: Import Data into Crowdfunding Database
 
 Lastly, we created a SQL database in Postgres. Data was imported using python code in Juypter Notebook. ADD MORE INFORMATION.....
 
-Resource Files We Used:
+**Resource Files We Used:**
   - campaign.csv
   - category.csv
   - contacts.csv
   - subcategory.csv
 
-Our Jupyter Notebook Python Script:
+**Our Jupyter Notebook Python Script:**
   - Populating_crowdfunding_db_tables.ipynb
 
-Tools/Libraries We Imported:
+**Tools/Libraries We Imported:**
    - pandas library: for data manipulation and analysis
    - sqlalchemy library: provides the SQL toolkit and Object-Relational Mapper (ORM) functionality. The create_engine function is to create a database engine to connect with the database in order to interact with the database, and perform operations such as SQL queries
 
 ## Getting Started
 
-Programs/software we used:
+**Programs/software we used:**
  - Jupyter Notebook: used for python coding in sections.
  - Microsoft Excel: to view csv files. Should be available by default on all PCs.
  - QuickDBD: to sketch an ERD of the tables for the data contained in the csv files. (http://www.quickdatabasediagrams.com/) No need to register, diagram can be generated on the website for free.
@@ -99,8 +99,7 @@ Programs/software we used:
  - pgAdmin: The pgAdmin tool functions as the window into the database. It's where queries are written, run and then the results of running them are reviewed. pgAdmin provides access to that data. Refer to "Installing" section below.
 
 
-To open the files .ipynb files in Juypter Notebook:
-
+**To open the files .ipynb files in Juypter Notebook:**
 - Open Anaconda Prompt
 - Activate dev environment, type 'conda activate dev'
 - Navigate to the folder where repository is saved on local drive
@@ -108,7 +107,7 @@ To open the files .ipynb files in Juypter Notebook:
 
 ## Installing
 
-Installation PostgreSQL & pgAdmin:
+**Installation PostgreSQL & pgAdmin:**
  - In your browser, go to Download PostgreSQLLinks: https://www.enterprisedb.com/downloads/postgres-postgresql-downloads.
  - Select the download option for your operating system and the latest version 14.x of PostgreSQL.
  - After downloading the latest version of PostgreSQL 14.x, double-click the postgresql-14.7-2-windows-x64.exe file. Note: The exact file version may be slightly different.
@@ -122,7 +121,8 @@ Installation PostgreSQL & pgAdmin:
  - This folder contains the pgAdmin 4 application.
  - To confirm the installation, start pgAdmin (this will open in a new browser window). Connect to the default server by clicking on it and entering the password if prompted.
 
-Installation psycopg2: after activating dev environment in Anaconda Prompt (see Getting Started above), type: "pip install psycopg2"
+**Installation psycopg2:**
+- after activating dev environment in Anaconda Prompt (see Getting Started above), type: "pip install psycopg2"
 
 ## Usage
 
