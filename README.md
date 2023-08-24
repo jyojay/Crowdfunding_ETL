@@ -1,7 +1,7 @@
 ## Crowdfunding_ETL
 ### Project Team 8: Jyotsna Jayaraman, Asha Kozak and Katharine Tamas
 
-In this scenario, our team has built an ETL Pipeline. Python, Pandas and Python dictionary methods (and regular expressions to show alternative method) were used to extract, transform and then create csv files. An Entity Relationship Diagram (ERD) and table schema were formed and then the data was uploaded into a Postgres database.
+In this scenario, our team has built an ETL (Extract, Transform, Load) Pipeline utilising Python, Pandas and Regular Expressions. We also employed Python dictionary methods as an alternative to Regular Expressions. Subsequently, we generated CSV files from the transformed data. An Entity Relationship Diagram (ERD) was created, along with a table schema, before uploading the data into a Postgres database.
 
 **Repository Folders and Contents:**
 - Resources:
