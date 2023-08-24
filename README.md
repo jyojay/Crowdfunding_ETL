@@ -103,11 +103,12 @@ Lastly, we created a SQL database (crowdfunding_db) in Postgres through pgAdmin.
   
   ![Schema_Upload](https://github.com/jyojay/Crowdfunding_ETL/assets/132628129/b2d9ca0a-0020-423f-bcb0-149ae14c0b8e)
 
-- Table dependencies successfully created on schema upload
+- Table dependencies/constraints successfully created on schema upload
 
-![Table_constraints_screen_shot1](https://github.com/jyojay/Crowdfunding_ETL/assets/132628129/f91df29f-4b82-431b-9cb0-bfde87fb964a)
+![Table_constraints_screen_shot1](https://github.com/jyojay/Crowdfunding_ETL/assets/132628129/d9893c70-169a-468f-a1d6-b1ed6b221adb)
 
-![Table_constraints_screen_shot2](https://github.com/jyojay/Crowdfunding_ETL/assets/132628129/559da7eb-3407-45d1-8d2c-6a5a843866c5)
+![Table_constraints_screen_shot2](https://github.com/jyojay/Crowdfunding_ETL/assets/132628129/036f3652-d5db-4ede-980e-6d5a74e1fcec)
+
 
 - Data from each table displayed successfully using SELECT * statement in pgAdmin (Please reference Populating_crowdfunding_db_tables.ipynb Jupyter notebook showing success of data upload and results of SELECT * statements using python)
   
