@@ -11,24 +11,23 @@ In this scenario, our team has built an ETL Pipeline. Python, Pandas and Python 
   - category.csv
   - contacts.csv
   - subcategory.csv
+- Screenshots:
+  - Select_output_campaign_1.png
+  - Select_output_campaign_2.png
+  - Select_output_campaign_3.png
+  - Select_output_category.png
+  - Select_output_contacts.png
+  - Select_output_subcategory.png
+  - Tables_constraints_screen_shot1.png
+  - Table_constraints_screen_shot2.png
+  - Schema_Upload.png
 - ELT_Mini_Project_JJayaraman.ipnynb
 - ELT_Mini_Project_JKozak.ipnynb
 - ELT_Mini_Project_JTamas.ipnynb
 - ERD_crowdfunding_db_schema.png
 - crowdfunding_db_schema.sql
-- Populating_crowdfunding_db_tables.ipynb
-- Schema_Upload.png
-- Tables_constraints_screen_shot1.png
-- Table_constraints_screen_shot2.png
 - Select_statements.sql
-- Select_output_campaign_1.png
-- Select_output_campaign_2.png
-- Select_output_campaign_3.png
-- Select_output_category.png
-- Select_output_contacts.png
-- Select_output_subcategory.png
-
-
+- Populating_crowdfunding_db_tables.ipynb
 
 
 ## Table of Contents
@@ -42,6 +41,7 @@ In this scenario, our team has built an ETL Pipeline. Python, Pandas and Python 
 ### Part 1: Create DataFrames for Category, Subcategory, Campaign, and Contacts
 
 At the beginning, we used Jupyter Notebook to import two excel files, that were transformed and manipulated to create four dataframes. These dataframes were then exported into csv files. 
+*Note: For creating contact.csv file we chose Option no. 2 (regular expressions). 
 
 **Resource Files We Used:**
   - crowdfunding.xlsx
