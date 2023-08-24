@@ -80,7 +80,7 @@ In this section, using QuickDBD, we sketched an ERD to form a table schema of th
 
 ### Part 3: Import Data into Crowdfunding Database
 
-Lastly, we created a SQL database (crowdfunding_db) in Postgres through pgAdmin. Table Schema sql file generated through our ERD diagram in QuickDBD was uploaded to create table structure and dependencies. Csv files generated in Part 1 were imported into relevant tables using python code using QLAlchemy in Juypter Notebook. Select queries were run both in pgAdmin and python.
+Lastly, we created a SQL database (crowdfunding_db) in Postgres through pgAdmin. Table Schema sql file generated through our ERD diagram in QuickDBD was uploaded to create table structure and dependencies. csv files generated in Part 1 were imported into relevant tables using python code using python SQLAlchemy in Juypter Notebook. Select queries were run both in pgAdmin and python.
 
 **Resource Files We Used:**
   - campaign.csv
