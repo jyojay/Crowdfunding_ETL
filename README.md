@@ -36,7 +36,6 @@ In this scenario, our team has built an ETL Pipeline. Python, Pandas and Python 
 - [About](#about)
 - [Getting Started](#getting-started)
 - [Installing](#installing)
-- [Usage](#usage)
 - [Contributing](#contributing)
 
 ## About
@@ -165,9 +164,6 @@ Lastly, we created a SQL database (crowdfunding_db) in Postgres through pgAdmin.
 **Installation psycopg2:**
 - after activating dev environment in Anaconda Prompt (see Getting Started above), type: "pip install psycopg2"
 
-## Usage
-
-A step by step series of examples that tell you how to get a development env running.
 
 ## Contributing
 
